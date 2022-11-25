@@ -1,0 +1,38 @@
+body{
+    background-image: url("station.jfif");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#increment-btn {
+    background: red;
+}
+
+#save-btn{
+    background: green;
+}
+
+button{
+    border: 1px solid black;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#counter{
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
